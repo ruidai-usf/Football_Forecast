@@ -302,20 +302,6 @@ np.savetxt('Prediction_Result_for_1718.csv', Predict_Result, delimiter = ',')
 
 
 
-#Train_Data = np.array([[0,0,1,2,1],[1,2,1,3,1],[4,0,2,0,2]])
-#T_current = 72
-#x0 = np.random.random(7)
-#x_bound = ((0, 2),(0, 2),(0, 2),(0, 2),(0, 2),(0, 2),(0, 2))
-#res = minimize(Loss_Function_for_Train, x0, method='L-BFGS-B', bounds=x_bound, tol=1e-4)
-#temp_sol = res.x
-#               options={'gtol': 5e-2,'maxfun':10000})
-
-
-
-
-
-
-
 
 
 
